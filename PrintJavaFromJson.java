@@ -27,7 +27,14 @@ public class PrintJavaFromJson{
                 "\"figureurl\":\n" +
                 "\"http://qzapp.qlogo.cn/qzapp/222222/8C75BBE3DC6B0E9A64BD31449A3C8CB0/30\"}";
 
-//        json_to_field(jsonStr);
+//				System.out.println("------jsonStr is------" );
+//				System.out.println(jsonStr);
+//				System.out.println("------GeneralField------");
+//				json_to_field(jsonStr);
+				
+				System.out.println("------jsonStr is------" );
+				System.out.println(jsonStr);
+				System.out.println("------GeneralClass------");
         json_to_class(jsonStr, "QQUser");
 
     }
