@@ -1,10 +1,10 @@
 # JavaPrintFieldAndClassFromJson
 
-*介绍：根据给出的json来打印（生成）出自命名的类
-*可以根据json_to_field方法打印（生成）java属性
-*可以根据json_to_class方法打印（生成）包含解析的java类，但目前只支持int和String类型
+  *介绍：根据给出的json来打印（生成）出自命名的类
+  *可以根据json_to_field方法打印（生成）java属性
+  *可以根据json_to_class方法打印（生成）包含解析的java类，但目前只支持int和String类型
 
-*运行(run) json_to_field(jsonStr):
+  *运行(run) json_to_field(jsonStr):
 ------jsonStr is------
 {"is_yellow_year_vip": "0",
 "ret": 0,
@@ -41,7 +41,7 @@ public String is_yellow_vip;
 public String gender;
 public String figureurl;
 
-*运行(run) json_to_class(jsonStr, "QQUser"):
+  *运行(run) json_to_class(jsonStr, "QQUser"):
 ------jsonStr is------
 {"is_yellow_year_vip": "0",
 "ret": 0,
